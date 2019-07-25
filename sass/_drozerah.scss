@@ -2,13 +2,9 @@
 
 .drozerah {
     // link colors
-    $color: #6a1b9a;
-    $hoverColor:purple;
-
+    $color: lime;
     text-decoration: none;
     font-size: 1em;
-    line-height: 24px;
-    height: 24px;
     color:white;
 
     svg {
@@ -27,13 +23,10 @@
         display: inline-block;
         color: $color;
     }
-
-    &:hover path {
-        fill: $hoverColor;
-    }
     
     &:hover span {
-        color: $hoverColor;
+        color: $color;
+        text-decoration: underline;
     }
 }
 
