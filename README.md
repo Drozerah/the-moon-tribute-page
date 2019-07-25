@@ -7,18 +7,22 @@
 [![img](https://raw.githubusercontent.com/Drozerah/freeCodeCamp-work/master/Responsive_Web_Design_Certification/Responsive_Web_Design_Projects/Build_a_Tribute_Page/img/the-moon.netlify.com.png)](https://the-moon.netlify.com/)
 
 - Standards: 
-    - HTML5 Responsive Web Design
-        - Media Queries
-        - Responsive Image
-    - CSS 3 Grid Layout 
-    - SCSS 
-
+    - HTML5 
+    - CSS 3 
+        - Responsive Web Design
+            - Media Queries
+            - Responsive Image
+        - Grid Layout
+        - Compilation
+            - autoprefixer
+            - postcss
+    - SCSS
+        - Transpilation
+            - Sasslib 
 - Deployement: 
     - netlify
     - https://the-moon.netlify.com/
                             
 - Software: 
     - VScode
-    - Git 
-
-
+    - Git
