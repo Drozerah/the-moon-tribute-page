@@ -1,0 +1,87 @@
+@import "_reset.scss";
+@import "_variables.scss";
+@import "_mixins.scss";
+
+/*! style.scss */
+
+body{
+    height: 100vh; // viewport height
+    display: grid;
+    place-items: center;
+    background-color: $bg;
+    font-family: monospace;
+    color:white;
+}
+h1{
+    font-size: 2em;
+    padding: 20px;
+    @include border($primary);
+}
+p{
+    margin: 20px 0;
+    font-size: 1em;
+    padding: 0px 10px;
+}
+header[role="banner"]{
+        display: none;
+}
+main{
+    // width:30%;
+    margin:50px 0 0 0;
+}
+#img-div{
+
+    display:grid;
+    align-content: center;
+    justify-items: center;
+
+    @include border($primary);
+    margin:50px 0px;
+
+    .responsive-img{
+        max-width: 100%;
+        height: auto;
+    }
+    div{
+        padding: 20px;
+        font-size: .85em;
+    }
+}
+
+#tribute-info p:last-child {
+    text-align: right;
+    a{
+        color:lime;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+footer{
+    @include border(#333);
+    margin: 20px 0 50px 0;
+    padding: 10px
+}
+
+/*
+* MEDIA QUERIES
+*/
+// Mobile and Tablet 
+@media screen and (max-width: 991px){
+    main{
+        width: 70%;
+    }
+}
+// Desktop
+@media screen and (min-width:992px) and (max-width: 1199px){
+    main{
+        width: 50%;
+    }
+}
+// Large Desktop
+@media screen and (min-width:1200px){
+    main{
+        width: 33.3%;
+    }
+}

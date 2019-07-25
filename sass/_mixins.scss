@@ -1,0 +1,7 @@
+/*! _mixins.scss */
+
+// Border
+@mixin border($color) {
+    border: 2px solid $color;
+    box-shadow: 5px 6px 0px $color;
+}
