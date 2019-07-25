@@ -1,0 +1,18 @@
+/* TEAM */
+
+Developer: Thomas G. aka Drozerah
+                            
+GitHub: https://github.com/Drozerah
+Dev: https://dev.to/drozerah
+                         
+Location: France
+                                        
+/* SITE */
+                           
+Last update: 2019/07/25
+                            
+Standards: HTML5 - CSS3 - SCSS
+
+Deployement: https://www.netlify.com/
+                            
+Software: VScode, git 
