@@ -4,7 +4,7 @@
 
 > "The Moon" page is my "tribute page" project for the freeCodeCamp responsive web design certification
 
-[![img](https://raw.githubusercontent.com/Drozerah/MyGitHubStorage/master/img/the-moon-tribute-page/the-moon.netlify.com.png)](https://the-moon.netlify.com/)
+[![img](https://raw.githubusercontent.com/Drozerah/freeCodeCamp-work/master/Responsive_Web_Design_Certification/Responsive_Web_Design_Projects/Build_a_Tribute_Page/img/the-moon.netlify.com.png)](https://the-moon.netlify.com/)
 
 - Standards: 
     - HTML5 Responsive Web Design
